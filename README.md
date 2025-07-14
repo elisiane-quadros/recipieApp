@@ -1,44 +1,68 @@
-# recipieApp
+RecipeApp
+==========
 
-## 💻 Sobre o projeto
-Um aplicativo de receitas desenvolvido com React Native e Expo, que consome a API TheMealDB para buscar e exibir receitas deliciosas. Este projeto visa fornecer uma interface intuitiva e interativa para explorar receitas e descobrir novas ideias culinárias.
+Sobre o projeto
+-------------------
+RecipeApp é um aplicativo mobile desenvolvido com React Native e Expo, que consome a API pública TheMealDB para buscar e exibir receitas variadas. O projeto tem como objetivo fornecer uma experiência simples e interativa para explorar receitas, aprender novos pratos e facilitar a vida na cozinha.
 
-## 📱 Funcionalidades
-- Tela Principal: Exibe uma lista de receitas populares e permite buscar receitas por nome, ou pelos ingrediente, ou por categorias.
-- Tela de Detalhes: Mostra detalhes completos da receita selecionada, incluindo ingredientes e instruções de preparo.
-- Navegação: Utiliza o React Navigation para navegar entre a tela principal e a tela de detalhes da receita.
+ Funcionalidades
+-------------------
+- Tela Principal: Lista de receitas populares com busca por nome, ingredientes ou categorias.
+- Tela de Detalhes: Exibe informações completas da receita, como ingredientes e modo de preparo.
+- Navegação: Implementada com React Navigation para navegação fluida entre telas.
+- Busca rápida e interface intuitiva.
 
-## 🚀 Tecnologias Utilizadas
-- [x] React Native: Framework para desenvolvimento de aplicativos móveis.
-- [x] Expo: Conjunto de ferramentas e serviços que facilitam o desenvolvimento com React Native.
-- [x] TheMealDB API: API pública para buscar receitas e informações sobre alimentos.
-- [x] React Navigation: Biblioteca para navegação entre telas no React Native.
-- [x] Axios: Biblioteca para realizar requisições HTTP.
+ Tecnologias Utilizadas
+--------------------------
+- React Native – Framework para desenvolvimento mobile multiplataforma.
+- Expo – Ferramenta para agilizar o desenvolvimento e o deploy de apps React Native.
+- TheMealDB API – API gratuita para busca de receitas.
+- React Navigation – Biblioteca para controle de navegação entre telas.
+- Axios – Cliente HTTP para comunicação com a API.
 
-## 📦 Instalação
+Como rodar o projeto localmente
+----------------------------------
+Pré-requisitos:
+- Node.js instalado
+- Expo CLI instalado (npm install -g expo-cli)
+- App Expo Go instalado no seu dispositivo mobile (Android/iOS)
 
-- Clone o repositório: 
-  - git clone https://github.com/usuario/receita-app.git
-- Navegue até o diretório do projeto: 
-  - cd recipieApp
-- Instale as dependências:
-  - npm install ou yarn install, se estiver usando Yarn
-- Certifique-se de ter o Expo CLI instalado. Se não tiver, instale-o globalmente:
-  - npm install -g expo-cli
-- Inicie o projeto:
-  - expo start
-- Abra o aplicativo no seu dispositivo ou emulador:
-  - Use o QR code exibido no terminal ou na interface web do Expo para abrir o aplicativo no Expo Go no seu dispositivo móvel.
-- No arquivo config.js, adicione a sua chave de API:
+Passos:
+1. Clone o repositório:
+   git clone https://github.com/seu-usuario/recipeApp.git
+2. Acesse o diretório:
+   cd recipeApp
+3. Instale as dependências:
+   npm install
+4. Inicie o projeto:
+   expo start
+5. Use o aplicativo Expo Go para escanear o QR code gerado e abrir o app no seu dispositivo móvel.
 
-## 🔧 Configuração
+Observações importantes
+---------------------------
+- As imagens e dados das receitas são obtidos diretamente da API TheMealDB.
+- Para melhor visualização, recomenda-se estar conectado à internet durante o uso do aplicativo.
+- Este projeto é de caráter educacional e demonstra boas práticas no consumo de APIs REST, utilização de React Native, Axios e navegação com React Navigation.
 
-- Obtenha uma chave de API para a TheMealDB:
-  - Visite TheMealDB API e siga as instruções para obter uma chave de API.
-- Adicione a chave de API ao projeto:
-  - export const API_KEY = 'sua-chave-de-api';
+Possíveis melhorias futuras
+-------------------------------
+- Tela de favoritos.
+- Filtro avançado por país, categoria e ingrediente.
+- Animações e melhorias visuais.
+- Armazenamento local com AsyncStorage.
 
+Contribuição
+----------------
+Contribuições são muito bem-vindas! Caso queira contribuir, siga os passos:
+1. Faça um fork do projeto.
+2. Crie uma nova branch com a sua feature: git checkout -b minha-feature
+3. Commit suas alterações: git commit -m 'Minha nova feature'
+4. Push para a sua branch: git push origin minha-feature
+5. Abra um Pull Request explicando suas alterações.
 
+Contato
+-----------
+Desenvolvido por **Elisiane Quadros**
+[LinkedIn](https://www.linkedin.com/in/elisiane-quadros/) • © 2025  
 
-
-[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+Este projeto está licenciado sob a [MIT License](LICENSE).
